@@ -1,0 +1,178 @@
+body {
+  background: url(./images/number-background.jpg) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+background-color: rgb(234, 201, 145);
+/* height: 223px;
+width: 230px; */
+border: 10px outset orange;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px rgba(0,0,0,1);
+
+
+
+
+
+}
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 0px;
+
+
+}
+.calcInput {
+    width: 100%;
+    height: 40px;
+    
+    border: black 2px solid;
+    background-color: rgb(216, 202, 176);
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: -7px;
+
+}
+
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 170, 0);
+  font-size: 40px;
+  border: 3px solid black;
+  margin-top: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: .5s;
+  border-radius: 15px;
+}
+
+button:hover {
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+button:active {
+  background-color: rgb(96, 65, 5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background: url(./images/number-background.jpg) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+} */
+
+/* ====== CALCULATOR CONTAINER ====== */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(180deg, #f7d694, #e6b34e);
+  border: 8px solid #d9911d;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 280px;
+  height: 420px;
+  position: relative;
+} */
+
+/* ====== INPUT DISPLAY ====== */
+/* .calcInput {
+  width: 100%;
+  height: 60px;
+  font-size: 28px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  text-align: right;
+  color: #333;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: -8px;
+  padding-right: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* ====== BUTTON GRID ====== */
+/* .button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  width: 100%;
+} */
+
+/* ====== BUTTON STYLES ====== */
+/* button {
+  background: linear-gradient(180deg, #ffa600, #e07b00);
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 12px 0;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #a85b00;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(180deg, #ffb733, #e07b00);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #a85b00;
+  background: linear-gradient(180deg, #c86c00, #8f4d00);
+}
+
+/* ====== SPECIAL BUTTON COLORS ====== */
+/* button:nth-child(4n) { /* operators like + - × ÷ */
+  /* background: linear-gradient(180deg, #0099ff, #006bb3);
+  box-shadow: 0 4px 0 #004f80;
+}
+
+button:nth-child(4n):hover {
+  background: linear-gradient(180deg, #33b3ff, #007acc);
+}
+
+button:nth-child(4n):active {
+  background: linear-gradient(180deg, #006bb3, #004f80);
+}
+
+button:last-child { /* divide or = */
+  /* background: linear-gradient(180deg, #00cc66, #00994d);
+  box-shadow: 0 4px 0 #006633;
+} */
